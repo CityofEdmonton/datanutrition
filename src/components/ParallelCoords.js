@@ -18,9 +18,6 @@ class ParallelCoords extends Component {
         colorscale: "Jet"
       },
       labelfont: {
-        size: 24
-      },
-      labelfont: {
         size: 18
       },
       tickfont: {

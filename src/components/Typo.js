@@ -66,7 +66,6 @@ Typo.propTypes = {
     PropTypes.string.isRequired,
     PropTypes.number.isRequired
   ]),
-  type: PropTypes.number.isRequired,
   position: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   sub: PropTypes.bool.isRequired

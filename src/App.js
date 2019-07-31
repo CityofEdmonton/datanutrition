@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Viewer from "./components/Viewer";
 import Papa from "papaparse";
 import data from "./data";
-import { getStats } from "./utils/statistics";
+// import { getStats } from "./utils/statistics";
 import "./App.css";
 
 /**
@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={"img/logo-s.png"} style={{ height: "100%" }} />
+          <img src={"img/logo-s.png"} style={{ height: "100%" }} alt="logo" />
           <div style={{ height: "100%", flex: 1 }}>
             <h1 className="App-title">Dataset Nutrition Label Prototype</h1>
           </div>

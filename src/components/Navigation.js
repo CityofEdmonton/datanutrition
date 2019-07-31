@@ -1,15 +1,7 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import Glamorous from "glamorous";
-import Typo from "./Typo";
 import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
+  Link
 } from "react-scroll";
 
 /**
@@ -34,9 +26,6 @@ class Navigation extends Component {
       cursor: "pointer",
       zIndex: 9999,
       fontFamily: "Lato"
-    });
-    const GDivT = Glamorous.div({
-      fontSize: 20
     });
     const GLink = Glamorous(Link)({
       textDecoration: "underline"

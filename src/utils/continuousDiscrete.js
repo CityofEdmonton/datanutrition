@@ -38,6 +38,7 @@ export function getContinuousDiscrete(data, trasnposed, noOfRows) {
       zeros: getMissingOrZero(count, noOfRows, "0")
     };
     stats.push(obj);
+    return obj;
   });
   return stats;
 }

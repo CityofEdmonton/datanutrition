@@ -29,6 +29,7 @@ export function getOrdinalNominal(data, trasnposed, noOfRows) {
       missing: getMissingOrZero(count, noOfRows, "")
     };
     stats.push(obj);
+    return obj;
   });
   return stats;
 }

@@ -3,9 +3,7 @@ import glamorous from "glamorous";
 import Typo from "./Typo";
 import Line from "./Line";
 import Plot from "react-plotly.js";
-import TextField from "material-ui/TextField";
-import MenuItem from "material-ui/Menu/MenuItem";
-import Grid from "material-ui/Grid";
+import { Grid, MenuItem, TextField } from '@material-ui/core';
 
 const GPlot = glamorous(Plot)({
   width: "100%",

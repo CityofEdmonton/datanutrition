@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Glamorous from "glamorous";
-import Grid from "material-ui/Grid";
+import Grid from "@material-ui/core/Grid";
 import Navigation from "./Navigation";
 import Label from "./Label";
-import ParallelCoords from "./ParallelCoords";
 import Description from "./Description";
 import { Element } from "react-scroll";
 

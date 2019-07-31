@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import Glamorous from "glamorous";
-import Grid from "material-ui/Grid";
+import Grid from "@material-ui/core/Grid";
 
 /**
  * The component
@@ -39,6 +38,7 @@ class Description extends Component {
             <img
               src={"img/poster+figures_22.png"}
               style={{ width: "100%", opacity: 0.75 }}
+              alt="modules graph"
             />
             <br />
             <br />
@@ -47,6 +47,7 @@ class Description extends Component {
             <a
               href="https://projects.propublica.org/docdollars/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               dataset
             </a>, which details payments made from pharmaceutical companies to
@@ -55,17 +56,20 @@ class Description extends Component {
             <br />
             <br />
             To learn more about our project, please visit our{" "}
-            <a href="http://datanutrition.media.mit.edu/" target="_blank">
+            <a href="http://datanutrition.media.mit.edu/" target="_blank"
+              rel="noopener noreferrer">
               website
             </a>, read our{" "}
             <a
               href="http://datanutrition.media.mit.edu/abstract.pdf"
               target="_blank"
+              rel="noopener noreferrer"
             >
               paper abstract
             </a>
             , or email us at{" "}
-            <a href="mailto:nutrition@media.mit.edu" target="_blank">
+            <a href="mailto:nutrition@media.mit.edu" target="_blank"
+              rel="noopener noreferrer">
               nutrition@media.mit.edu
             </a>.
           </Grid>

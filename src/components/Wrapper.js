@@ -1,16 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import glamorous from "glamorous";
-import Card, { CardContent } from "material-ui/Card";
-import Section from "./Section";
-import Header from "./Header";
+import { Card, CardContent } from '@material-ui/core';
 import Spacer from "./Spacer";
-import Statistics from "./Statistics";
-import PairPlot from "./PairPlot";
-import GroundTruth from "./GroundTruth";
 import { Element } from "react-scroll";
-import Typo from "./Typo";
-import Line from "./Line";
 
 /**
  * The component

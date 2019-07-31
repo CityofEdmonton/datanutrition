@@ -3,25 +3,14 @@ import glamorous from "glamorous";
 import Typo from "./Typo";
 import Line from "./Line";
 import Plot from "react-plotly.js";
-import TextField from "material-ui/TextField";
-import MenuItem from "material-ui/Menu/MenuItem";
-import Grid from "material-ui/Grid";
 import _ from "lodash";
-import { FormControlLabel } from "material-ui/Form";
-import Switch from "material-ui/Switch";
+import { FormControlLabel, Grid, MenuItem, TextField } from '@material-ui/core';
+import Switch from "@material-ui/core/Switch";
 
 const GPlot = glamorous(Plot)({
   width: "100%",
   height: 300
 });
-
-const marker = {
-  color: "white",
-  line: {
-    color: "black",
-    width: 2
-  }
-};
 
 class GroundTruth extends Component {
   state = {
